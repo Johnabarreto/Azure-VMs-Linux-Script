@@ -37,6 +37,7 @@ sudo apt-get --yes autoclean
 sudo apt-get --yes check
 
 # Set the Enable XRDP - Required for Xilinx install
+sudo apt-get install --yes xfce4 xrdp
 sudo systemctl enable xrdp
 echo xfce4-session >~/.xsession
 sudo service xrdp restart
